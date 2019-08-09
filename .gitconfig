@@ -1,9 +1,9 @@
 [user]
-	name = Nicolas Wipfler
-	email = nicolas.wipfler@gmail.com
+    name = nicolaschristianwipfler
+    email = nicolas.wipfler@gmail.com
 [core]
-	editor = code
-	excludesfile = ~/.git-global-exclude
+    editor = code
+    excludesfile = ~/.git-global-exclude
 [sendemail]
     smtpencryption = tls
     smtpserver = smtp.gmail.com
@@ -14,4 +14,4 @@
     suppresscc = self
 [alias]
     lg = log --pretty=oneline --abbrev-commit
-	history = log --color --graph --pretty=format:'%ad %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short
+    history = log --color --graph --pretty=format:'%ad %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short
