@@ -1,1 +1,74 @@
-/Users/d066382/Library/Application Support/Code/User/settings.json
+{
+    "terminal.integrated.shell.osx": "/bin/bash",
+
+    "editor.renderIndentGuides": false,
+    "editor.cursorWidth": 2,
+    "editor.emptySelectionClipboard": false,
+    "editor.fontWeight": "normal",
+    "editor.minimap.renderCharacters": true,
+    "editor.minimap.side": "right",
+    "editor.quickSuggestionsDelay": 5,
+    "editor.renderLineHighlight": "all",
+    "editor.smoothScrolling": false,
+    "editor.cursorStyle": "line",
+    "editor.codeLens": false,
+    "editor.cursorBlinking": "phase",
+    "window.zoomLevel": 0,
+
+    "explorer.confirmDelete": false,
+    "diffEditor.renderIndicators": false,
+    "debug.inlineValues": false,
+    
+    "git.ignoreMissingGitWarning": true,
+    "gitlens.keymap": "none",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ],
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.blame.highlight.enabled": false,
+    
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#FF7042",
+        "list.activeSelectionForeground": "#FF7042",
+        "list.inactiveSelectionForeground": "#FF7042",
+        "list.highlightForeground": "#FF7042",
+        "scrollbarSlider.activeBackground": "#FF704250",
+        "editorSuggestWidget.highlightForeground": "#FF7042",
+        "textLink.foreground": "#FF7042",
+        "progressBar.background": "#FF7042",
+        "pickerGroup.foreground": "#FF7042",
+        "tab.activeBorder": "#FF7042",
+        "notificationLink.foreground": "#FF7042"
+    },
+    "workbench.colorTheme": "Solarized Light",    
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.enablePreview": false,
+
+    "material-icon-theme.showUpdateMessage": false,
+    "material-icon-theme.folders.color": "#26a69a",
+    "material-icon-theme.activeIconPack": "react_redux",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.folders.theme": "specific",
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Palenight",
+        "accentPrevious": "Blue",
+        "accent": "Orange"
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
