@@ -36,8 +36,8 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias dotdir="code ~"
 
 # Todo
-alias tc="^(?![\t\s]*[+_\-~?]\:?).+$"
-alias to="^(?![\t\s]*[+_\-~?\\]\:?).+$"
+alias toco="ag --nocolor --nonumber '^(?![\t\s]*[+_\-~?\:]).+$' US.txt"
+alias todo="ag --nocolor --nonumber '^(?![\t\s]*[+_\-~?\\\:]).+$' US.txt"
 
 # Source
 alias refresh="source ~/.zshrc"

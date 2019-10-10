@@ -1,6 +1,6 @@
 [user]
 	name = ncvv
-	email = nicolas.wipfler@gmx.de
+    email = nicolas.wipfler@gmail.com
 [core]
     editor = code
     excludesfile = ~/.git-global-exclude
