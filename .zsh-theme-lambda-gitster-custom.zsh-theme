@@ -1,1 +1,0 @@
-.oh-my-zsh/custom/themes/lambda-gitster.zsh-theme

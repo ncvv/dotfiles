@@ -1,36 +1,60 @@
-autoconf
-fdupes
-fzf
-gcc
-gdbm
-gettext
-git
-gmp
-htop
-isl
-jq
-libidn2
-libmpc
-libunistring
-libyaml
-libzip
-lua
-mpfr
-mysql
-ncurses
-oniguruma
-openssl
-pcre
-pcre2
-perl
-pkg-config
-pyenv
-readline
-ruby
-sqlite
-tldr
-tree
-wget
-xz
-youtube-dl
-zsh
+cask_args appdir: "/Applications"
+
+tap "caskroom/cask"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "colindean/fonts-nonfree"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "mas-cli/tap"
+tap "nvie/tap"
+brew "autoconf"
+brew "gdbm"
+brew "sqlite"
+brew "awscli"
+brew "cmake"
+brew "fdupes"
+brew "ffmpeg"
+brew "fswatch"
+brew "fzf"
+brew "gcc"
+brew "git"
+brew "htop"
+brew "jq"
+brew "mysql"
+brew "ngrep"
+brew "packer"
+brew "pipenv"
+brew "pyenv"
+brew "rbenv"
+brew "rsync"
+brew "tcpdump"
+brew "telnet"
+brew "terraform@0.11"
+brew "the_silver_searcher"
+brew "tldr"
+brew "tree"
+brew "watch"
+brew "wget"
+brew "wtfutil"
+brew "yamllint"
+brew "youtube-dl"
+brew "zsh"
+brew "mas-cli/tap/mas"
+brew "nvie/tap/git-toolbelt"
+cask "docker"
+cask "dozer"
+cask "flux"
+cask "postman"
+cask "sublime-text"
+cask "visual-studio-code"
+cask "vlc"
+cask "caskroom/fonts/font-source-code-pro"
+cask "colindean/fonts-nonfree/font-microsoft-office"
+mas "Alfred", id: 405843582
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Telegram", id: 747648890
+mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835
