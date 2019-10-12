@@ -1,6 +1,8 @@
-{
+{    
     "terminal.integrated.shell.osx": "/bin/bash",
 
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.renderIndentGuides": false,
     "editor.cursorWidth": 2,
     "editor.emptySelectionClipboard": false,
@@ -13,62 +15,46 @@
     "editor.cursorStyle": "line",
     "editor.codeLens": false,
     "editor.cursorBlinking": "phase",
+    "editor.suggestSelection": "first",
     "window.zoomLevel": 0,
-
     "explorer.confirmDelete": false,
     "diffEditor.renderIndicators": false,
     "debug.inlineValues": false,
-    
-    "git.ignoreMissingGitWarning": true,
-    "gitlens.keymap": "none",
     "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": true,
-        "suppressWelcomeNotice": true
+        "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.codeLens.scopes": [
-        "document",
-        "containers"
-    ],
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.blame.highlight.enabled": false,
+    "gitlens.settings.mode": "advanced",
+    "gitlens.historyExplorer.enabled": true,
     
+    "workbench.colorTheme": "Material Theme",
     "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#FF7042",
-        "list.activeSelectionForeground": "#FF7042",
-        "list.inactiveSelectionForeground": "#FF7042",
-        "list.highlightForeground": "#FF7042",
-        "scrollbarSlider.activeBackground": "#FF704250",
-        "editorSuggestWidget.highlightForeground": "#FF7042",
-        "textLink.foreground": "#FF7042",
-        "progressBar.background": "#FF7042",
-        "pickerGroup.foreground": "#FF7042",
-        "tab.activeBorder": "#FF7042",
-        "notificationLink.foreground": "#FF7042"
+        "activityBarBadge.background": "#C6FF00",
+        "list.activeSelectionForeground": "#C6FF00",
+        "list.inactiveSelectionForeground": "#C6FF00",
+        "list.highlightForeground": "#C6FF00",
+        "scrollbarSlider.activeBackground": "#C6FF0050",
+        "editorSuggestWidget.highlightForeground": "#C6FF00",
+        "textLink.foreground": "#C6FF00",
+        "progressBar.background": "#C6FF00",
+        "pickerGroup.foreground": "#C6FF00",
+        "tab.activeBorder": "#C6FF00",
+        "notificationLink.foreground": "#C6FF00",
+        "editor.findWidgetResizeBorder": "#C6FF00",
+        "editorWidget.border": "#C6FF00"
     },
-    "workbench.colorTheme": "Solarized Light",    
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "vscode-great-icons",
 
-    "material-icon-theme.showUpdateMessage": false,
-    "material-icon-theme.folders.color": "#26a69a",
-    "material-icon-theme.activeIconPack": "react_redux",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "material-icon-theme.folders.theme": "specific",
+    "materialTheme.accent": "Acid Lime",
+    "materialTheme.fixIconsRunning": false,
     "materialTheme.cache.workbench.settings": {
         "themeColours": "Palenight",
         "accentPrevious": "Blue",
         "accent": "Orange"
     },
-    "gitlens.historyExplorer.enabled": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+
+    
+    
+    "explorer.confirmDragAndDrop": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "latex-workshop.view.pdf.viewer": "browser"
 }
