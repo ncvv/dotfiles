@@ -1,19 +1,16 @@
 #!/usr/bin/env bash
 
-# Export platform as environmant variable and install rsync
-if [ "$(uname)" == "Darwin" ]; then
-    export PLATD="Mac"
+if [[ $OSTYPE == "linux-gnu" ]]; then
+    sudo apt-get install rsync
+elif [[ $OSTYPE == "darwin" ]]; then
     # Install brew
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     # Install dependencies
     brew install git rsync
-elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-    export PLATD="Linux"
-    sudo apt-get install rsync
 fi
 
 # Clone dotfiles
-git clone --separate-git-dir=$HOME/.dotfiles https://github.com/ncvv/dotfiles.git .tmp
+git clone --separate-git-dir=$HOME/.dotfiles/.git https://github.com/ncvv/dotfiles.git .tmp
 rsync --recursive --verbose --exclude '.git' .tmp/ $HOME/
 rm -rf .tmp
 # Don't show untracked files in dotfiles repository $HOME

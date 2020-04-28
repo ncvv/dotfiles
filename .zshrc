@@ -4,6 +4,7 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="lambda-gitster"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=203"
+ZSH_DISABLE_COMPFIX=true		 
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
@@ -37,4 +38,4 @@ else
 fi
 
 # Travis
-[ -f /Users/$USER/.travis/travis.sh ] && source /Users/$USER/.travis/travis.sh
+#[ -f /Users/$USER/.travis/travis.sh ] && source /Users/$USER/.travis/travis.sh

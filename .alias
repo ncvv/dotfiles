@@ -13,6 +13,7 @@ alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias cdg="cd ~/Dev/git"
 alias lsd="ls -lF | grep --color=never '^d'"
+alias l="LC_ALL=C ls -ahlF"
 
 # Print each PATH entry on a separate line
 alias path="echo -e ${PATH//:/\\n}"
@@ -78,4 +79,5 @@ alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume output volume 100'"
 
 # Dotfiles repo alias
-alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+#alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
