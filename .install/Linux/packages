@@ -1,0 +1,9 @@
+build-essential
+gdb
+python3
+openssh
+gzip
+valgrind
+vim
+zsh
+code
