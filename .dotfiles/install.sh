@@ -9,7 +9,7 @@ xargs -a $HOME/.dotfiles/.install/Linux/packages -r sudo apt-get install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
 chsh -s $(which zsh)
 rm .zshrc
-mv .zshrc-pre-oh-my-zsh .zshrc
+mv .zshrc.pre-oh-my-zsh .zshrc
 source .zshrc
 
 # VSCode Extensions
